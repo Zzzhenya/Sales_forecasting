@@ -1,6 +1,6 @@
 # Sales/Demand forecasting
 
-## Dataset Description
+## Dataset 
 
 
 You are provided with daily historical sales data. The task is to forecast the total amount of products sold in every shop for the test set. The test set must be created using the train dataset's last month (October) without the target (item_cnt_day). **You need to forecast the sales for the shops and products of the resulting dataset for October 2015.** This allows you to compare the each method's forecasted data with actual data. Note that the list of shops and products slightly changes every month. Creating a robust model that can handle such situations is part of the challenge.
@@ -29,7 +29,7 @@ You are provided with daily historical sales data. The task is to forecast the t
 9. shop_name - name of shop ( In Russian)
 10. item_category_name - name of item category (In Russian)
 
-### Process
+## Process
 
 1. Exploratory Data Analysis
 
@@ -38,3 +38,7 @@ You are provided with daily historical sales data. The task is to forecast the t
 3. Post-Feature-Engineering EDA
 
 4. Forecasting
+
+	1. Moving average
+
+	2. Regression
